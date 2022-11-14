@@ -1,0 +1,39 @@
+.image{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-image: url(https://wallpapercave.com/wp/JXwuN2Q.jpg);
+}
+.nav{
+  /* position: absolute; */
+  font-size: 25px;
+  color: white;
+  margin: 0;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_title{
+  padding: 18px;
+  font-size: 38px;
+}
+.nav_right{
+  display: flex;
+}
+.nav_item{
+  padding: 15px;
+}
+.page_title{
+  /* position: relative; */
+/* height: 100vh; */
+  height: calc(100vh - 186px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 55px;
+  letter-spacing: 12x;
+}
